@@ -1,5 +1,5 @@
 /* [创建表名] office
- * [运行时间] 60 sec for 10 hospital
+ * [运行时间] 60 sec (for 10 hospitals)
  * [依赖表名] 无
  * [字段内容]
  * id                 >>  Auto

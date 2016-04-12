@@ -82,16 +82,16 @@ object AppointSpyder {
     var expectB: Int = 0 // DtbsUpdateRtn 全部完成
     var countB: Int = 0
     val hospAppUrlList = List(
-      "http://jiahao.haodf.com/jiahao/search.htm?district=beijing&hospitalId=1",   // 1. 北京协和医院
-      "http://jiahao.haodf.com/jiahao/search.htm?district=sichuan&hospitalId=488", // 2. 华西医院
-      "http://jiahao.haodf.com/jiahao/search.htm?district=beijing&hospitalId=335", // 3. 北京301医院
-      "http://jiahao.haodf.com/jiahao/search.htm?district=shanghai&hospitalId=424", // 4. 上海瑞金医院
-      "http://jiahao.haodf.com/jiahao/search.htm?district=shanxi&hospitalId=479", // 5. 西京医院
-      "http://jiahao.haodf.com/jiahao/search.htm?district=shanghai&hospitalId=418", // 6. 华山医院
-      "http://jiahao.haodf.com/jiahao/search.htm?district=shanghai&hospitalId=420", // 7. 中山医院
-      "http://jiahao.haodf.com/jiahao/search.htm?district=hubei&hospitalId=496", // 8. 武汉同济医院
+      "http://jiahao.haodf.com/jiahao/search.htm?district=beijing&hospitalId=1",     // 1. 北京协和医院
+      "http://jiahao.haodf.com/jiahao/search.htm?district=sichuan&hospitalId=488",   // 2. 华西医院
+      "http://jiahao.haodf.com/jiahao/search.htm?district=beijing&hospitalId=335",   // 3. 北京301医院
+      "http://jiahao.haodf.com/jiahao/search.htm?district=shanghai&hospitalId=424",  // 4. 上海瑞金医院
+      "http://jiahao.haodf.com/jiahao/search.htm?district=shanxi&hospitalId=479",    // 5. 西京医院
+      "http://jiahao.haodf.com/jiahao/search.htm?district=shanghai&hospitalId=418",  // 6. 华山医院
+      "http://jiahao.haodf.com/jiahao/search.htm?district=shanghai&hospitalId=420",  // 7. 中山医院
+      "http://jiahao.haodf.com/jiahao/search.htm?district=hubei&hospitalId=496",     // 8. 武汉同济医院
       "http://jiahao.haodf.com/jiahao/search.htm?district=guangdong&hospitalId=460", // 9. 中山大学附属第一医院
-      "http://jiahao.haodf.com/jiahao/search.htm?district=beijing&hospitalId=23"   // 10. 北京大学第一医院
+      "http://jiahao.haodf.com/jiahao/search.htm?district=beijing&hospitalId=23"     // 10. 北京大学第一医院
     )
 
     def receive = {
